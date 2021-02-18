@@ -1,16 +1,16 @@
-version: "3.9"
-services: 
-  udagram-api-feed:
-    build: udagram-api-feed/
-    ports: 
-      - "8080:8080"
-    env_file:
-      - udagram-api-feed/feed.env
-  udagram-api-user:
-    build: udagram-api-user/
-    env_file:
-      - udagram-api-user/user.env
-    ports:
-      - "8081:8081"
+# version: "3.9"
+# services: 
+#   udagram-api-feed:
+#     build: udagram-api-feed/
+#     ports: 
+#       - "8080:8080"
+#     env_file:
+#       - udagram-api-feed/feed.env
+#   udagram-api-user:
+#     build: udagram-api-user/
+#     env_file:
+#       - udagram-api-user/user.env
+#     ports:
+#       - "8081:8081"
 
       
